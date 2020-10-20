@@ -1,11 +1,9 @@
-#ignore data folders for containers
-/services/
-/volumes/
-/backups/
-/.tmp/*
-__pycache__
+influx.sh
+backups
 docker-compose.yml
-compose-override.yml
-.outofdate
-
-!.gitkeep
+influxdb.conf
+services/
+session.default
+sine.py
+volumes/
+.gitignore
